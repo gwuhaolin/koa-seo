@@ -1,0 +1,28 @@
+{
+  "name": "koa-seo",
+  "version": "0.0.0",
+  "description": "SEO middleware for koa base on [chrome-render](https://github.com/gwuhaolin/chrome-render)",
+  "keywords": [
+    "koa",
+    "SEO",
+    "middleware",
+    "chrome",
+    "server render"
+  ],
+  "author": "gwuhaolin",
+  "engines": {
+    "node": ">= 7.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chrome-render": "0.0.5",
+    "redis": "^2.7.1"
+  },
+  "devDependencies": {
+    "koa": "^2.2.0",
+    "koa-static": "^3.0.0"
+  }
+}
