@@ -1,10 +1,16 @@
+[![Npm Package](https://img.shields.io/npm/v/koa-seo.svg?style=flat-square)](https://www.npmjs.com/package/koa-seo)
+[![Npm Downloads](http://img.shields.io/npm/dm/koa-seo.svg?style=flat-square)](https://www.npmjs.com/package/koa-seo)
+[![Dependency Status](https://david-dm.org/gwuhaolin/koa-seo.svg?style=flat-square)](https://npmjs.org/package/koa-seo)
+
 # koa-seo
 SEO middleware for koa base on [chrome-render](https://github.com/gwuhaolin/chrome-render).
+
 Modern web app use technique like react.js vue.js which render html in browser, this lead to search engine can't crawl your page content.
+
 This project want to solve this kind of problem in a general-purpose way, it detect request is from search engine crawler then use headless chrome to render out your modern web page and return to crawler.
 koa-seo also support redis cache to improve performance.
 
-## Install
+## Use
 ```bash
 npm i koa-seo
 ```
@@ -30,7 +36,7 @@ app.use(seoMiddleware({
 
 app.listen(3000);
 ```
-you can run this [complete demo](./demo)
+you can download and run this [complete demo](./demo/main.js)
 
 ## Options
 
@@ -43,5 +49,5 @@ you can run this [complete demo](./demo)
 ### redis cache options
 options `cache` is not required, if it's omitted will not use cache.
 `cache` is a object, is support all params in [node redis driver](https://github.com/NodeRedis/node_redis#options-object-properties),
-and params:
+and below:
 - `expires`: `number` cache expires time in seconds, if omitted cache forever
