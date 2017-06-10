@@ -3,7 +3,7 @@
 [![Dependency Status](https://david-dm.org/gwuhaolin/koa-seo.svg?style=flat-square)](https://npmjs.org/package/koa-seo)
 
 # koa-seo
-SEO middleware for koa base on [chrome-render](https://github.com/gwuhaolin/chrome-render).
+SEO middleware for koa base on [chrome-render](https://github.com/gwuhaolin/chrome-render), a substitute for [prerender](https://prerender.io).
 
 Modern web app use technique like react.js vue.js which render html in browser, this lead to search engine can't crawl your page content.
 
