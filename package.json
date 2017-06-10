@@ -1,6 +1,6 @@
 {
   "name": "koa-seo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SEO middleware for koa base on [chrome-render](https://github.com/gwuhaolin/chrome-render)",
   "keywords": [
     "koa",
@@ -15,11 +15,10 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./demo/main.js"
   },
   "dependencies": {
-    "chrome-render": "0.0.5",
-    "redis": "^2.7.1"
+    "koa-chrome-render": "0.0.1"
   },
   "devDependencies": {
     "koa": "^2.2.0",
