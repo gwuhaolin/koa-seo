@@ -42,3 +42,5 @@ you can download and run this [complete demo](./demo/main.js)
 - `render` options from [koa-chrome-render](https://github.com/gwuhaolin/koa-chrome-render#render-options)
 - `cache` options from [koa-chrome-render](https://github.com/gwuhaolin/koa-chrome-render#cache-options)
 
+For more flexible use case see [koa-chrome-render](https://github.com/gwuhaolin/koa-chrome-render).
+
