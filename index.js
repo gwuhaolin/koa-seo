@@ -44,11 +44,10 @@ function isCrawler(request) {
 }
 
 function seoMiddleware(options = {}) {
-    const { render, cache } = options;
+    const { render } = options;
 
     return chromeRenderMiddleware({
         render,
-        cache,
         enable: isCrawler
     })
 }

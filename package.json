@@ -18,7 +18,7 @@
     "start": "node ./demo/main.js"
   },
   "dependencies": {
-    "koa-chrome-render": "0.0.3"
+    "koa-chrome-render": "0.0.4"
   },
   "devDependencies": {
     "koa": "^2.2.0",
