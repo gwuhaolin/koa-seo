@@ -37,6 +37,6 @@ For more flexible use case see [koa-chrome-render](https://github.com/gwuhaolin/
 
 
 ## Friends
-- [koa-chrome-render](https://github.com/gwuhaolin/koa-chrome-render) chrome-render middleware for koa.
+- koa-seo dependent on [koa-chrome-render](https://github.com/gwuhaolin/koa-chrome-render) chrome-render middleware for koa.
 - [chrome-render](https://github.com/gwuhaolin/chrome-render) general server render base on chrome.
 - [chrome-pool](https://github.com/gwuhaolin/chrome-pool) Headless chrome tabs manage pool.
