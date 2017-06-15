@@ -1,6 +1,6 @@
 {
   "name": "koa-seo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SEO middleware for koa base on chrome-render",
   "keywords": [
     "koa",
@@ -22,7 +22,7 @@
     "start": "node ./demo/main.js"
   },
   "dependencies": {
-    "koa-chrome-render": "^1.0.0"
+    "koa-chrome-render": "^1.0.1"
   },
   "devDependencies": {
     "koa": "^2.2.0",

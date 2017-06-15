@@ -9,7 +9,7 @@
 <script>
     setTimeout(function () {
         document.getElementById('app').innerText = 'Im ready now';
-        console.log('_page_ready');
+        window.chromeRenderReady && window.chromeRenderReady();
     }, 1000);
 </script>
 </body>
