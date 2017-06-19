@@ -9,6 +9,9 @@ Modern web app use technique like react.js vue.js which render html in browser, 
 
 This project want to solve this kind of problem in a general-purpose way, it detect request is from search engine crawler then use headless chrome to render out your modern web page and return to crawler.
 
+Here is koa-seo's architecture diagram:
+![koa-seo arch](./doc/koa-seo%20arch.png)
+
 ## Use
 ```bash
 npm i koa-seo
@@ -34,9 +37,6 @@ you can download and run this [complete demo](./demo/main.js)
 - `render` options from [koa-chrome-render](https://github.com/gwuhaolin/koa-chrome-render#render-options)
 
 For more flexible use case see [koa-chrome-render](https://github.com/gwuhaolin/koa-chrome-render).
-
-## Arch
-![koa-seo arch](./doc/koa-seo%20arch.png)
 
 ## Friends
 - koa-seo dependent on [koa-chrome-render](https://github.com/gwuhaolin/koa-chrome-render) chrome-render middleware for koa.
