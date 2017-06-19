@@ -35,6 +35,8 @@ you can download and run this [complete demo](./demo/main.js)
 
 For more flexible use case see [koa-chrome-render](https://github.com/gwuhaolin/koa-chrome-render).
 
+## Arch
+![koa-seo arch](./doc/koa-seo%20arch.png)
 
 ## Friends
 - koa-seo dependent on [koa-chrome-render](https://github.com/gwuhaolin/koa-chrome-render) chrome-render middleware for koa.
