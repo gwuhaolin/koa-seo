@@ -24,7 +24,7 @@ const app = new Koa();
 
 app.use(seoMiddleware({
     render: {
-        // use `window.chromeRenderReady()` to notify chrome-render page has ready
+        // use `window.isPageReady=1` to notify chrome-render page has ready
         useReady: true,
     }
 }));
