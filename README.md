@@ -31,7 +31,7 @@ app.use(seoMiddleware({
 
 app.listen(3000);
 ```
-you can download and run this [complete demo](./demo/main.js)
+you can download and run this [complete demo](test/server.js)
 
 ## Options
 - `render` options from [koa-chrome-render](https://github.com/gwuhaolin/koa-chrome-render#render-options)

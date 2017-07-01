@@ -15,17 +15,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:gwuhaolin/koa-seo.git"
+    "url": "https:git@github.com:gwuhaolin/koa-seo.git"
   },
   "main": "index.js",
   "scripts": {
-    "start": "node ./demo/main.js"
+    "test": "mocha test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
     "koa-chrome-render": "^1.1.0"
   },
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.1",
     "koa": "^2.2.0",
-    "koa-static": "^3.0.0"
+    "mocha": "^3.4.2",
+    "request": "^2.81.0",
+    "semantic-release": "^6.3.6"
+  },
+  "publishConfig": {
+    "access": "restricted"
   }
 }
