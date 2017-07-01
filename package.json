@@ -1,6 +1,6 @@
 {
   "name": "koa-seo",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "SEO middleware for koa base on chrome-render",
   "keywords": [
     "koa",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https:git@github.com:gwuhaolin/koa-seo.git"
+    "url": "https://github.com/gwuhaolin/koa-seo"
   },
   "main": "index.js",
   "scripts": {
