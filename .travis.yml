@@ -1,3 +1,9 @@
+os:
+- linux
+- osx
+- windows
+dist: trusty
+sudo: false
 language: node_js
 cache:
   directories:
@@ -13,3 +19,5 @@ after_success:
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
+addons:
+  chrome: stable

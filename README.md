@@ -1,4 +1,5 @@
 [![Npm Package](https://img.shields.io/npm/v/koa-seo.svg?style=flat-square)](https://www.npmjs.com/package/koa-seo)
+[![Build Status](https://img.shields.io/travis/gwuhaolin/koa-seo.svg?style=flat-square)](https://travis-ci.org/gwuhaolin/koa-seo)
 [![Npm Downloads](http://img.shields.io/npm/dm/koa-seo.svg?style=flat-square)](https://www.npmjs.com/package/koa-seo)
 [![Dependency Status](https://david-dm.org/gwuhaolin/koa-seo.svg?style=flat-square)](https://npmjs.org/package/koa-seo)
 
