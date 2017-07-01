@@ -5,7 +5,7 @@ const CrawlerUserAgents = [
   'googlebot',
   'yahoo',
   'bingbot',
-  'Baiduspider',
+  'Baiduspider',// http://baidu.com/search/spider.htm
   'facebookexternalhit',
   'twitterbot',
   'rogerbot',
