@@ -12,10 +12,5 @@ notifications:
   email: false
 node_js:
   - '7'
-after_success:
-  - npm run semantic-release
-branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
 addons:
   chrome: stable
