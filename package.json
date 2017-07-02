@@ -1,6 +1,6 @@
 {
   "name": "koa-seo",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "SEO middleware for koa base on chrome-render",
   "keywords": [
     "koa",
