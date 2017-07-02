@@ -19,8 +19,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "mocha test",
-    "release": "standard-version"
+    "test": "mocha test"
   },
   "dependencies": {
     "koa-chrome-render": "^1.1.0"
@@ -29,7 +28,6 @@
     "cheerio": "^1.0.0-rc.1",
     "koa": "^2.2.0",
     "mocha": "^3.4.2",
-    "request": "^2.81.0",
-    "standard-version": "^4.2.0"
+    "request": "^2.81.0"
   }
 }
