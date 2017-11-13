@@ -6,10 +6,6 @@
 # koa-seo
 SEO middleware for koa base on [chrome-render](https://github.com/gwuhaolin/chrome-render), a substitute for [prerender](https://prerender.io).
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/3bvxELAxnq8r4wheFyRkED8U/gwuhaolin/koa-seo'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/3bvxELAxnq8r4wheFyRkED8U/gwuhaolin/koa-seo.svg' />
-</a>
-
 Modern web app use technique like react.js vue.js which render html in browser, this lead to search engine can't crawl your page content.
 
 This project want to solve this kind of problem in a general-purpose way, it detect request is from search engine crawler then use headless chrome to render out your modern web page and return to crawler.
